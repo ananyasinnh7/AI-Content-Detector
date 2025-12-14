@@ -14,14 +14,15 @@ export function Header() {
                     </span>
                 </div>
                 <nav className="flex items-center space-x-6 text-sm font-medium text-muted-foreground">
-                    <a href="#" className="hover:text-foreground transition-colors">Detector</a>
-                    <a href="#" className="hover:text-foreground transition-colors">Rewriter</a>
-                    <a href="#" className="flex items-center hover:text-foreground transition-colors">
+                    <a href="#tool" className="hover:text-foreground transition-colors">Detector</a>
+                    <a href="#features" className="hover:text-foreground transition-colors">Why It Matters</a>
+                    <a href="#" className="flex items-center text-primary font-semibold hover:text-primary/80 transition-colors bg-primary/10 px-4 py-2 rounded-full border border-primary/20">
                         <Sparkles className="w-4 h-4 mr-2" />
-                        Premium
+                        Get Premium
                     </a>
                 </nav>
             </div>
         </header>
     );
 }
+
